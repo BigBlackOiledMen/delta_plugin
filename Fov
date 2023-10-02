@@ -1,6 +1,6 @@
 local LocalPlayer = game:GetService("Players").LocalPlayer -- Declaring LocalPlayer
 
-delta.Settings:AddInput("Fov Changer", "I MADE THIS MYSELF I SWEAR", function(text)
+delta.Settings:AddInput("Fov Changer", "simply changes your field of view to any number", function(text)
   local number = tonumber(text) -- Converts the text into number first
   
   workspace.CurrentCamera.FieldOfView = number -- Set the Fov as the number input
